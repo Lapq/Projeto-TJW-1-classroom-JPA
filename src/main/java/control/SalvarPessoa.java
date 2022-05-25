@@ -14,7 +14,7 @@ public class SalvarPessoa {
 		this(	"João Cordeiro",
 				"00000000000",
 				new Date(90,0,1),
-				new ReadLob().getFoto("C:\\proj tjw\\joaocordeiro.jpg"),
+				new ReadLob().getFoto(".\\foto\\joaocordeiro.jpg"),
 				'a'
 		);
 	}
